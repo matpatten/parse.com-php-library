@@ -1,14 +1,13 @@
 <?php
-include BASE_CONFIG_PATH . ENVIRONMENT . '/parseConfig.php';
-$path_to_parse_lib = dirname(__FILE__);
-include $path_to_parse_lib . '/parseObject.php';
-include $path_to_parse_lib . '/parseQuery.php';
-include $path_to_parse_lib . '/parseUser.php';
-include $path_to_parse_lib . '/parseFile.php';
-include $path_to_parse_lib . '/parsePush.php';
-include $path_to_parse_lib . '/parseGeoPoint.php';
-include $path_to_parse_lib . '/parseACL.php';
-include $path_to_parse_lib . '/parseCloud.php';
+include 'parseConfig.php';
+include 'parseObject.php';
+include 'parseQuery.php';
+include 'parseUser.php';
+include 'parseFile.php';
+include 'parsePush.php';
+include 'parseGeoPoint.php';
+include 'parseACL.php';
+include 'parseCloud.php';
 
 class parseRestClient{
 
